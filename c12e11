@@ -1,0 +1,4 @@
+When the process finish, the parameter will be destroyed, thus the
+memory used by the smart pointer will be freed.  So if we use p to
+access the memory again, the result is undefined. What's more, when
+p is destroyed, the memory will be delete twice.

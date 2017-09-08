@@ -1,0 +1,16 @@
+(a) Legal. The process function handles its business the memory
+managed by sp will not be freed after process finished.
+
+(b) Illegal. The call of the function trys to initialize a shared
+pointer by a built-in pointer, which is prohibited. Becasue the
+initialize function which takes a built-in pointer as argument is
+explicit.
+
+(c) Illegal. Type of p is int*, which is a built-in pointer. So for
+the same reason of (b), this call is illegal too.
+
+(d) This call itself is legal, but it will casue some problem. Because
+the smart pointer used inside the function will be destroyed when the
+function finishes, the memory managed by it will be freed too. So if
+we try to access the memory through p, the result is undefined. p is a
+dangling pointer.
