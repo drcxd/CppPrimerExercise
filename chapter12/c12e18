@@ -1,0 +1,8 @@
+If shared_ptr has release:
+
+shared_ptr<int> sp1(new int(2));
+shared_ptr<int> sp2 = sp1;
+int* p = sp1.release();
+
+After this piece of code, if sp2 is destroyed the reference count is
+reduced to 0 and the object is deleted. Then p is a dangling pointer.

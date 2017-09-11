@@ -1,0 +1,18 @@
+(a) Illegal. unique_ptr takes pointer to initialize.
+
+(b) Legal. But if one of pi and p1 is destroyed or deleted, any of pi,
+p1 and ix will not be available and will be possibly cause memory
+error.
+
+(c) Legal. But if one of pi2 and p2 is destroyed or deleted, both of
+them will not be available. Try to access the content will cause
+memory error.
+
+(d) Legal. But when p3 is destroyed or reset, ix is not accessable any
+more.
+
+(e) Legal. And is the least possibly to cause any trouble.
+
+(f) Legal. But if one of the objects that actually share the same
+pointer destroy the object the pointer point to, accessment to the
+underlying object will cause memory error.
