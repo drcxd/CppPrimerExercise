@@ -1,2 +1,0 @@
-The memory managed by sp is freed. So when sp is used to access this
-piece of memery, the result is undefined.

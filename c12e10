@@ -1,6 +1,0 @@
-No, it's not.
-
-It should like this:
-
-shared_ptr<int> p(new int(42));
-process(p);
