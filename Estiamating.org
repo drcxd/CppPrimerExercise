@@ -1,0 +1,10 @@
+* Exercise12.27
+  estimating: 60mins
+
+  actual cost time: 126mins
+
+  actual start: 19:05
+
+  actual end: 21:11
+
+  reason: 
