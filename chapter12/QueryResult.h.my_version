@@ -15,6 +15,10 @@ public:
 private:
     std::shared_ptr<const std::vector<std::string>> m_shared_text;
     std::shared_ptr<const std::map<std::string, std::set<int>>> m_shared_linenumber_map;
+    /* The reason why I add a map here is to stroe the times a word
+     * occurs.  I think if a word occurs twice or more in a line
+     * should be count as twice not like the code in the book.
+     */
     std::shared_ptr<const std::map<std::string, int>> m_shared_count_map;
     std::string m_query_word;
 };

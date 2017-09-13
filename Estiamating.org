@@ -1,10 +1,38 @@
-* Exercise12.27
+* Exercise 12.27
   estimating: 60mins
 
-  actual cost time: 126mins
+  actual cost time: 116mins
 
   actual start: 19:05
 
   actual end: 21:11
 
-  reason: 
+  reason:
+  
+  still not familiar with smart pointer so I made the followling mistake:
+
+  + Use the raw pointer to initialize two shared_ptr
+
+  + Use address of member object to initialize member shared_ptr,
+    which results in the program aborted when it finishes. The reason
+    is that when the program finishes, the member object is destroyed
+    first then the member shared_ptr. When the program delete the
+    object the shared_ptr point to, the object has already been
+    deleted thus cause the abort.
+
+* Exercise 12.28
+  estimating: 60mins
+
+  actual cost time: unknown for I forget to log the start time. But I
+  think I caost less than 60mins.
+
+  actual start: unknown
+
+  actual end: 10:51
+
+  reason:
+
+  First the process-oriented programming in such a scale is much
+  easier than object oriented programming. Second the logic of the
+  code I have already wrote once. Third this version don't use smart
+  pointer, which is error-prone.

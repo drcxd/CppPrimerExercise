@@ -1,0 +1,10 @@
+I feel it's a nuisance for me to write another version using the
+StrBlob and StrBlobPtr, for I feel they are badly designed now.
+
+So I just describe the key point to use them instead of std::vector.
+
+Fisrt when write to the StrBlob, we have to use StrBlob::push_back,
+which actually calls std::vector::push_back.
+
+Second when read the content of StrBlob, i.e. the text of the file, we
+have to use StrBlobPtr to traverse the underlying vector of StrBlob.

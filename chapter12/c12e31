@@ -1,0 +1,11 @@
+If use a vector instead of a set, when a word occurs multiple times in
+a single line, the line number will be stored multiple times
+correspondingly.
+
+If the other part of the program doesn't change, then it will print
+the same line multiple times.
+
+For the order problem, if we traverse the file text form top to
+bottom, using a vector or a set makes no difference.
+
+To say which is better, it depends on your requirement for the problem.
