@@ -1,0 +1,11 @@
+Now numbered has a copy constructor that generates a new serial
+number. Both b and c will have a unique serial number different from a
+and each other.
+
+However, since function f use non-reference type of numbered object,
+the copy-constructor will be called when the function is called. Thus,
+the serial number of the object inside the function scope will be
+different from the seiral number of the argument.
+
+So the output will be three different serial number, however they are
+not the serial number of a, b and c.

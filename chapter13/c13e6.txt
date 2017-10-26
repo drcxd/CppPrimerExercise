@@ -1,0 +1,10 @@
+A copy-assignment operator is an operator used when assigning objects.
+
+When assignment happens, usually when "o1 = o2;" occurs.
+
+Sometime the synthesized copy-assignment operator forbid
+assignment. Otherwise the copy-assignment operator copy each
+non-static members of the right-hand object to the corresponding
+members of the left-hand object.
+
+If the operator is not defined explicitly, it is synthesized.

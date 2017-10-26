@@ -1,0 +1,9 @@
+StrBlob:
+
+The std::shared_ptr is destroyed, if the reference count is decreased
+to 0, the underlying object is destroyed.
+
+StrBlobPtr:
+
+The std::weak_ptr is destroyed. The std::size_t is destroyed, but
+actually noting is done to it.

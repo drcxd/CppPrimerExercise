@@ -1,0 +1,2 @@
+Since TextQuery and QueryResult use std::shared_ptr to manage pointer,
+they don't need special copy-control members.

@@ -1,0 +1,9 @@
+A destructor does what inverse to the constructor. It should do some
+clean work when the life of an object is ended. It destroys every
+non-static member of the class.
+
+Synthesized destructor does nothing but use the default method to
+destroy every non-static member.
+
+When no destructor is explicitly defined, an synthesized destructor is
+offered by the compiler.

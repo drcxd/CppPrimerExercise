@@ -1,0 +1,3 @@
+Since now the function f use refernce type of numbered object, it will
+honestly print the serial number of its argument, which means the
+output will be the different serial number of a,b and c.

@@ -1,0 +1,5 @@
+The parameter of the copy constructor is not reference type. When we
+use such constructor to initialize a copy of an object, we need to use
+the copy constructor to initialize a copy of the origin object, to
+initialize the copy of the origin object, we need to call the copy
+constructor again and this makes infinite loop which will never ends.

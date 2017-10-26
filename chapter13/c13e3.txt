@@ -1,0 +1,5 @@
+When copy a StrBlob, we just make a copy of the std::shared_ptr, which
+makes the reference count increase one.
+
+When copy a StrBlobPtr, we make a copy of the std::weak_ptr and
+std::size_t.

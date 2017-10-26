@@ -1,0 +1,17 @@
+TextQuery:
+
+When copy, assign: the std::shared_ptr is copyed which makes the reference
+count increased by one.
+
+When destroyed: the std::shared_ptr is destroyed which makes the
+reference count decreased by one. If the reference count is 0, then
+the object pointed by the std::shared_ptr is destroyed.
+
+QueryResult:
+
+When copy, assign: the std::shared_ptr and std::string is copyed. The
+reference count of std::shared_ptr is increased by one.
+
+When destroyed: the std:shared_ptr and std::string is destroyed. The
+reference count is decreased by one. If the reference count is 0, then
+the object pointed by the std::shared_ptr is destroyed.

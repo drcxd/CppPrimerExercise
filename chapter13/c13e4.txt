@@ -1,0 +1,11 @@
+arg is copy initialized.
+
+local is copy initialized.
+
+*heap is copy initialized.
+
+*heap is copy initialized again.
+
+pa[0] and pa[1] is copy initialized.
+
+The return value of foo_bar is copy initialized.

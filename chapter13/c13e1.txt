@@ -1,0 +1,10 @@
+A copy constructor is a constructor whose first parameter is a
+reference to the class type while other parameters have default value.
+
+Generally, when the object is copy initialized the copy constructor is
+used.
+
+It means when the object is initialized with an equal sign, the object
+is used as parameter or return value of a function, and brace
+initialize the elements in an array or the members of an aggregate
+class. Some class will also copy initialize the objects they allocate.
