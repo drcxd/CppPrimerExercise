@@ -1,0 +1,7 @@
+Since we want the StrBlob behave like a value, the copy-constructor
+and copy assignment member should make a copy of the object which the
+std::shared_ptr points to when executed.
+
+It doesn't need a destructor because the vector of string is managed
+by the std::shared_ptr, which will decide whether to destroy the
+vecotr when itself is destroyed.

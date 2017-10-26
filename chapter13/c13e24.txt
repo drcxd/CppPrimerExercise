@@ -1,0 +1,9 @@
+If HasPtr didn't define a destructor, the memory allocated by the new
+operator will never be freed after the object is destroyed which means
+memory leak.
+
+If HasPtr didn't define a copy-constructor, when some instance of
+HasPtr is copy initialized, the newly initialized object will share
+the same string object with the origin. When one of them is destroyed,
+the string object is destroyed, the remainded one's pointer now points
+to invalid memory.
