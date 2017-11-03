@@ -1,0 +1,9 @@
+If use the copy and swap, we first generate a local copy of rhs and
+add the copy to the folders rhs is in. Then we swap the local copy and
+lhs, which removes themselves from the folders they are in, swaps the
+data, then adds themsevles to the new folders.
+
+This process has an extra operation of add the local copy object's
+pointer to Folders the lhs object is originally in. When the local
+copy is destroyed, every access of the pointer from the Folders will
+crash the program.

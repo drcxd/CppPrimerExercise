@@ -1,0 +1,8 @@
+Because we want to change the contents fo the Folder.
+
+If the argument type is Folder, then we are operating a copy of the
+Folder which we want to change. As a result, after the function quits,
+the actual Folder is not changed.
+
+If the argument type is const Folder&, then we can't call the addMsg
+or remMsg method, for they changed the contents of the object.

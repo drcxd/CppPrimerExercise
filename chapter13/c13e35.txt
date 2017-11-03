@@ -1,0 +1,3 @@
+If Message uses synthesized copy-control members, the deleted Message
+will not be removed from the folders, the copyed Message will not be
+added to the folders.
