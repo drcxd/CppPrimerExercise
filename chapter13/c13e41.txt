@@ -1,0 +1,5 @@
+Because the first_free points to one past the last element in the
+StrVec, if we use prefix increment, we construct the object at the
+increased pointer. The memory originally pointed by the first_free is
+not constructed, when we try to access this part of memeory, our
+program may crash.
