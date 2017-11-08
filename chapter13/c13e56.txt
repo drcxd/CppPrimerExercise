@@ -1,0 +1,5 @@
+This will cause a infinite self call loop.
+
+ret.sorted() calls the lvalue reference version of sort which is the
+function created ret. Then the function created a new ret and call
+sorted again...
