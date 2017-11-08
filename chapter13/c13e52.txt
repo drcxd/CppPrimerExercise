@@ -1,0 +1,14 @@
+In the first statement:
+
+Since hp2 is an lvalue, the copy constructor is called. The stirng and
+int in hp2 is copied into hp and leave untouched.
+
+In the second statement:
+
+First the operator= function makes a copy of std::move(hp2). Since
+std::move(hp2) is an rvalue, the move constructor is called and hp2.ps
+is set to 0(nullptr), the rhs holds the original value of hp2.ps and
+hp2.i. Then the swap function is called, so the value of ps and i of
+hp and rhs is swaped. Thus hp now holds the value of ps and i of the
+original hp2. rhs now holds the vluae of ps and i of hp. After the
+assignment operator returned, rhs is destroyed.

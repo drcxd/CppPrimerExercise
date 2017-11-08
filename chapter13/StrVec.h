@@ -11,8 +11,10 @@ public:
         , first_free(nullptr)
         , cap(nullptr) { }
     StrVec(const StrVec &);
+    StrVec(StrVec &&);
     StrVec(const std::initializer_list<std::string> &il);
     StrVec &operator=(const StrVec &);
+    StrVec &operator=(StrVec &&);
     ~StrVec();    
     size_t size() const { return first_free - elements; }
     size_t capacity() const { return cap - elements; }

@@ -1,0 +1,8 @@
+An rvalue reference is a reference to an rvalue. Usually an rvalue is
+an object which can be accessed and modified. We can use the rvalue
+reference as the object itself. Variable is rvalue.
+
+An lvalue reference is a reference to an lvalue. An lvalue is about to
+be destroyed, it is usually a temporary, such as the result of
+arithmetic, relational, bitwise and postfix increment/decrement
+operator.

@@ -12,7 +12,9 @@ public:
         : contents(str) { }
     // copy control to manage pointers to this Message
     Message(const Message &);
+    Message(Message &&);
     Message &operator=(const Message &);
+    Message &operator=(Message &&);
     ~Message();
     // add/remove this Message from the specified Folder's set of messages
     void save(Folder &);
@@ -28,4 +30,5 @@ private:
     void add_to_Folders(const Message&);
     // remove this Message from every Folder in folders
     void remove_from_Folders();
+    void move_Folders(Message *m);
 };

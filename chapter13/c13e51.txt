@@ -1,0 +1,4 @@
+Since the is to be returned unique_ptr is about to be detroyed, maybe
+the pointer it manages is moved into the returned unique_ptr. So the
+move constructor instead of the copy constructor is called, which
+makes it legal.
