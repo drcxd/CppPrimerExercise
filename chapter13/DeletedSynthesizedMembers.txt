@@ -1,0 +1,63 @@
+If a class defines either a move constructor and/or move-assignment
+operator, then the synthesized copy constructor and copy-assignment
+operator will be defined as deleted.
+
+When a copy-contro members may be synthesized as deleted
+
+destructor:
+
+1. class has a member has deleted or inaccessible(e.g. private) destructor
+
+copy constructor:
+
+1. class has a member has deleted or inaccessible copy constructor
+
+2. class has a member has deleted or inaccessible destructor
+
+copy-assignment operator:
+
+1. class has a member has deleted or inaccessible copy-assignment operator.
+
+2. class has a const or reference member (can't be modified)
+
+default constructor:
+
+1. class has a member has deleted or inaccessible destructor
+
+2. class has an can't default uninitialized reference member
+
+3. class has an can't default uninitialized const member
+
+=================================================================================
+
+The compiler will synthesize move constructor and move-assignment
+operator only if the class doesn't define any-copy control members and
+if every nonstatic data member and if every nonstatic data member can
+be moved.
+
+A move operation is never implicitly defined as a deleted
+function. However, if we explicitly ask the compiler to generate a
+move operation by using = default, and the compiler can not move all
+the members, then the move operation will be defined deleted.
+
+When move constructor/operator is synthesized as deleted
+
+move constructor and move operator:
+
+1. class has a member defines its own copy constructor/operator but
+does not also define a move constructor/operator
+
+2. class has a member doesn't define copy constructor/operator but the
+compiler can not synthesize a move constructor/operator.
+
+3. class has a member has deleted or inaccessible move
+constructor/operator.
+
+move constructor only:
+
+1. class destructor is deleted or inaccessible
+
+move-assignment operator only:
+
+1. class has const or reference (can't be modified) member
+
