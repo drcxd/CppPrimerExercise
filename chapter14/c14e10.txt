@@ -1,0 +1,7 @@
+(a) This is the right data. So the operator>> will work correctly and
+calculate the revenue.
+
+(b) 10 will be read as the bookNo and 24 will be read as the
+units_sold. When reading '.' after '4', because instream is expecting a
+int, it will report an error on '.'. So the operator>> will
+reset the Sales_data object as default initialized.

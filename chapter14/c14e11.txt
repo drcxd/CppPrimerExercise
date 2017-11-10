@@ -1,0 +1,3 @@
+This input operator has no error handling part. Given the input from
+exercise 14.10 (b), the instream will stop reading at '.' and price
+has uninitialized value.

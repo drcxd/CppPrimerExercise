@@ -1,0 +1,4 @@
+(a) built-in version
+(b) string version
+(c) vector version
+(d) built-in version

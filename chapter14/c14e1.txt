@@ -1,0 +1,5 @@
+Overloaded operators have the same precedence and associativity as the
+built-in operator.
+
+Overloaded operators have no guarantess of operands evaluation sequnce
+and short-circuit.

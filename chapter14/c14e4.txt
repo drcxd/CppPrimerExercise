@@ -1,0 +1,16 @@
+(a) symmetric so nonmember
+
+(b) compound assignment so ought to be member, but arithematic maybe
+can be nonmember
+
+(c) ++ should return lvalue so member
+
+(d) member, for -> means fetch the member in buit-in context
+
+(e) nonmember
+
+(f) nonmember, symmetric
+
+(g) nonmember, symmetric
+
+(h) member, can't say why, just feel natural.
