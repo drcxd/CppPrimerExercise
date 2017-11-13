@@ -1,0 +1,3 @@
+The member of StrBlobPtr is a std::weak_ptr and a int. There is no
+resource is user-allocated in this class. So it's okay to use the
+synthesized version of copy-control members.
