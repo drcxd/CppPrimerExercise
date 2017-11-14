@@ -1,0 +1,4 @@
+Lambda is easy to write and use. So I will use a lambda when the
+function is simple or the call frequency is small. When the function
+is complicated or will be used in many places in the project, maybe
+it's time to write a class.
