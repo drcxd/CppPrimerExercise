@@ -1,0 +1,2 @@
+void calc(int) will be chosen, for the class-type conversion has the
+lowest preference.

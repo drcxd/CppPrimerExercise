@@ -1,0 +1,6 @@
+int ec1 = ldObj; is ambiguous, for the LongDouble object can be
+converted to float by the conversion operator then to int by built-in
+conversion, or to dobule by the conversion operator then to int by
+built-in conversion.
+
+float ex2 = ldObj; is exact.

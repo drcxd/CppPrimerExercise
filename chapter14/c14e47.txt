@@ -1,0 +1,5 @@
+The first operator returned an object of type const int while has a
+possibility of modify the struct.
+
+The second operator returned an object of int. The const qualifier
+indicates that the function will mot modify the struct.

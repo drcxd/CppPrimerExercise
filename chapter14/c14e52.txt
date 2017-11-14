@@ -1,0 +1,34 @@
+-----------------------
+ld = si + ld;
+
+Candidate functions:
+
+built-in +
+
+Viable functions:
+
+built-in +
+
+Type conversion:
+
+si -> int
+ld -> double
+
+-----------------------
+ld = ld + si;
+
+Candidate functions:
+
+member operator+ of LongDouble
+
+non-member operator+
+
+built-in operator+
+
+Viable functions:
+
+member operator+ of LongDouble
+
+Type conversion:
+
+no type conversion needed
