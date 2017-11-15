@@ -1,0 +1,7 @@
+Yes.
+
+override indicates it's an overrided virtual function inherited from a
+base class.
+
+final indicates that this member function should not be inherited by
+derived class.

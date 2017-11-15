@@ -1,0 +1,5 @@
+Static type is the type specified in declaration or yielded by
+expression.
+
+Dynamic type is the actual type of the object in memory of the
+variable or expression.

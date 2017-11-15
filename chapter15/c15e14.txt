@@ -1,0 +1,11 @@
+(a) base version
+
+(b) derive version
+
+(c) base version
+
+(d) base version or derive version, the same
+
+(e) base version
+
+(f) derive version

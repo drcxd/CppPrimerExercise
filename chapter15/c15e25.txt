@@ -1,0 +1,11 @@
+We define a default constructor for Disc_quote because we want its
+derived class has default constructor.
+
+Since we have defined a constructor that takes four arguments for
+Disc_quote, if we do not define the default constructor explicitly,
+the compiler will not synthesize one for us.
+
+Then, since its base class has no default constructor, Bulk_quote
+can't define its default constructor too. Because the default
+constructor of Bulk_quote has to call the defalut constructor of its
+base class.

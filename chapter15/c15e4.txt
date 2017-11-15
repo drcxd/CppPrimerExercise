@@ -1,0 +1,5 @@
+(a) incorrect. A class can't derived from itself.
+
+(b) correct.
+
+(c) incorrect. A class declaration must not have the derivation list.

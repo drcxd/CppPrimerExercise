@@ -1,0 +1,1 @@
+An ifstream is direved from an istream.

@@ -1,0 +1,3 @@
+Base class of a hierarchy.
+
+A virtual destructor must correctly free the resource it allocates.

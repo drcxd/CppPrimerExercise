@@ -1,0 +1,13 @@
+class Base legal.
+
+class Pub_Derv legal.
+
+class Priv_Derv legal.
+
+class Prot_Derv legal.
+
+class Derived_from_Public legal.
+
+class Derived_from_Private illegal.
+
+class Derived_from_Protected legal.

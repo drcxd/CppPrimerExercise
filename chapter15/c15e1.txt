@@ -1,0 +1,2 @@
+A virtual member is defined by the base class which indicates the
+derived class may have its own implementation of the member function.

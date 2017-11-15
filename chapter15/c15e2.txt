@@ -1,0 +1,2 @@
+A protected member can be accessed by the derived class of the base
+class while private member can not.
