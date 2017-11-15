@@ -12,6 +12,7 @@ public:
         , quantity(qty)
         , discount(disc) { }
     double net_price(std::size_t) const = 0;
+    ~Disc_quote() override { std::cout << ""}
 protected:
     std::size_t quantity = 0;
     double discount = 0.0;
