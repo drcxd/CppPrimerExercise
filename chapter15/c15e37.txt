@@ -1,0 +1,3 @@
+If we use shared_ptr<Query_base> as member, the only thing in the
+hierarchy classes need to change is that they have to use query->mem
+instead of query.mem.

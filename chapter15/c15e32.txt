@@ -1,0 +1,7 @@
+Since Query doesn't define any copy control member, the compiler will
+synthesize them for it.
+
+The only data member Query has is a smart pointer to Query_base. So
+the reference count is increased when an Query object is copyed,
+remain unchanged when an Query object is moved, is decresed when an
+Query object is destructed.

@@ -1,0 +1,3 @@
+Since Query_base has pure virtual functions. We can't construct
+Query_base directly. Thus when Query_base is copied, moved, assigned
+or destructed, the actual behavior is depends on its derived class.

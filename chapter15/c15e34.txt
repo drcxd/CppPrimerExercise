@@ -1,0 +1,6 @@
+(a) Query, Query_base, WordQuery x2; Query, Query_base, BinaryQuery,
+AndQuery; Query, Query_base, BinaryQuery, OrQuery.
+
+(b) Query::rep, BinaryQuery::rep.
+
+(c) Query::eval, OrQuery::eval.

@@ -1,0 +1,5 @@
+(a) Query NotQuery AndQuery OrQuery WordQuery
+
+(b) Query NotQuery AndQuery OrQuery WordQuery
+
+(c) Query WordQuery AndQuery OrQuery

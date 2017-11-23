@@ -6,11 +6,12 @@
 
 class Bulk_quote : public Disc_quote {
 public:
-    Bulk_quote() = default;
-    Bulk_quote(const std::string&, double, std::size_t, double);
-    Bulk_quote(const Bulk_quote &bq) : Disc_quote(bq) {
-        std::cout << "Bulk_quote copy constructor is called\n";
-    }
+    using Disc_quote::Disc_quote;
+    // Bulk_quote() = default;
+    // Bulk_quote(const std::string&, double, std::size_t, double);
+    // Bulk_quote(const Bulk_quote &bq) : Disc_quote(bq) {
+    //     std::cout << "Bulk_quote copy constructor is called\n";
+    // }
     Bulk_quote &operator=(const Bulk_quote &rhs) {
         Quote::operator=(rhs);
         Disc_quote::operator=(rhs);

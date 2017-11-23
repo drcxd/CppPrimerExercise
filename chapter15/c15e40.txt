@@ -1,0 +1,3 @@
+If rhs returned an empty set, then the result will just contain the
+elements from result from lhs and vice versa. If both are empty, then
+the QueryResult returned will contian an empty set.
