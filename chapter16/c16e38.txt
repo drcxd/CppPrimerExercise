@@ -1,0 +1,2 @@
+The explicit template argument is needed for we need it to convert the
+argument to the intended type.

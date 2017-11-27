@@ -1,0 +1,9 @@
+First, a function parameter that is a reference/pointer to a const
+object can be passed a reference/pointer to a nonconst object.
+
+Second, if the function is not a reference, then the function type to
+pointer and the built-in array type to pointer conversion will be
+made.
+
+Other conversions, such as arithmetic, derived to base and
+user-defined conversion will not be performed.

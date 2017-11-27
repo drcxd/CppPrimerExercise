@@ -1,0 +1,3 @@
+The loop executes size() times. Each time it calls alloc.construct to
+construct object on dest use the moved object *elem. After
+construction, the dest and elem is self-incresed by one.

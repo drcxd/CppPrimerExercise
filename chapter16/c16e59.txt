@@ -1,0 +1,3 @@
+since s is a string, the template argument type is string
+&. std::forward return type is string &. the function will use the
+object to construct a new string object on first_free.

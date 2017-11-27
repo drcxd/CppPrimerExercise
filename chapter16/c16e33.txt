@@ -1,0 +1,4 @@
+const conversion: nonconst to const conversion.
+
+function type or array type to pointer conversion.
+(Array- or fucntion-to-pointer conversion)

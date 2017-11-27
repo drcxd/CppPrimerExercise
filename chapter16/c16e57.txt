@@ -1,0 +1,8 @@
+For variadic errorMsg:
+
+It can handle different type of arguments in one single function
+call. But it takes a lot of time to design, implement and debug.
+
+For nonvariadic error_msg:
+
+It is easy to write, use and debug. But the functionality is limited.

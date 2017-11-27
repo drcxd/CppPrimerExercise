@@ -1,0 +1,4 @@
+make_shared should be a variadic function template, thus it can take
+as many as needed arguments to construct new object. It should use
+rvalue reference as the template argument type(s) and use std::forward
+to preserve all the type information of the arguments.
