@@ -1,0 +1,5 @@
+The class definition is generated. However, the function is not
+instantiated until it is called.
+
+The compiler rewrites the class defination, replace each instance of
+the template parameter by the given template argument.

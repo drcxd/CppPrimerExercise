@@ -1,0 +1,2 @@
+Instantiation is the process in which the compiler generate code
+according to a template.

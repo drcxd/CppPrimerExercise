@@ -1,0 +1,3 @@
+One-to-one friend. If the BlobPtr doesn't point to the same object,
+they are different. Then different type of BlobPtr can't be equal,
+allow the user to compare different types of BlobPtr is senseless.

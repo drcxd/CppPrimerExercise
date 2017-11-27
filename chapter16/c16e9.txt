@@ -1,0 +1,2 @@
+A function/class template is a blueprint the compiler uses to generate code
+when the actually fucntion is called.

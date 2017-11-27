@@ -1,0 +1,15 @@
+(a) No instantiation. A declaration need no instantiation.
+
+(b) No instantiation. A reference need no instantiaton, only when the
+reference is used the class is instantiated.
+
+(c) Stack of int is instantiated. The class definition has to konw
+the size of the object, so the Stack of int is instantiated.
+
+(d) No instantiaton. A pointer need no instantiation, only when the
+underlying object is accessed, the template is instantiated.
+
+(e) Instantiation. The object is used.
+
+(f) Instantiation. Template has no size, only instantiated template is
+an object which has a size.
