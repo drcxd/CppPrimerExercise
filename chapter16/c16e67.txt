@@ -1,0 +1,4 @@
+No. Specialization have no effect on fucntion matching involved with
+nontemplate function. If the nontemplate function is prefered, even
+with specialized function template, the nontemplate function will be
+chosen.

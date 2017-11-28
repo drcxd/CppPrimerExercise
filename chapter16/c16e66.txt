@@ -1,0 +1,3 @@
+Use overloading, we have to deal with function matching.
+
+Use specialization, we have to deal with decalration.
