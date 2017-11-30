@@ -1,0 +1,3 @@
+Using QueryResult is better. The user can just call print to get the
+wanted result while using the tuple will make the user bother to
+figure out the detail of what in the QueryResult.

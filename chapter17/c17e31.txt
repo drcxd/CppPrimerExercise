@@ -1,0 +1,2 @@
+In each iteration, the engine is re-constructed so the generated
+random numbers are the same.

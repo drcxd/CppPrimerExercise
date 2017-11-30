@@ -1,0 +1,5 @@
+(a) 000...000100000 total 64 bits
+
+(b) 0000 0000 0000 1111 0110 1001 1011 0101
+
+(c) bv contains bits converted from the lowest 8 characters in bstr.

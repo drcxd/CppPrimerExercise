@@ -1,0 +1,1 @@
+If the match failed, the str() will return a empty string.

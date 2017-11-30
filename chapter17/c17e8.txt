@@ -1,0 +1,2 @@
+The object Sales_data object will have no ISBN but the count and
+revenue is accumulated as before.

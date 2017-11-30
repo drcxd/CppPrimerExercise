@@ -1,0 +1,2 @@
+The resp will be out of scope when the while condition is evaluated,
+then the compile will fail.
