@@ -1,0 +1,7 @@
+(a)
+
+range_error
+
+(b)
+
+exception

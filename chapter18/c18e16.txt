@@ -1,0 +1,15 @@
+If using declaration appears on position 1: ivar in namespace Exercise
+will confict with ivar in global namespace. The program won't compile.
+
+If using declaration appears on position 2: dvar in namespace Exercise
+will confilct with dvar in manip. The program won't compile.
+
+If using directive appears on position 1: ++ivar will be
+ambiguous. Because the using directive lift the ivar in Exercise to
+global namespace.
+
+If using directive appears on position 2: ++ivar still is
+ambiguous. Since the nearest namespace defined both the using
+directive and namespace Exercise is global namespace, the names in
+namespace Exercise are lifted to global scope, which conflicts with
+ivar defined in global scope.

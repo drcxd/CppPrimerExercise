@@ -1,0 +1,8 @@
+If mem1 is a string, then the swap will be looked up in both current
+scope and namespace std. Thus, the std::swap will be called.
+
+if mem1 is int, mem1 is not a class object. Function name will be
+searched only in current scope. Since we have a using declaration, we
+can use the short form of the std::swap, thus the std::swap will be
+called unless there is an another more specified version of swap in
+current scope.

@@ -1,0 +1,6 @@
+using declarations only make the declared name accesseable in the
+declared scope.
+
+using directives lift the members of the used namespaces to the
+nearest namespace defined both the namespace and the scope using the
+using directives.

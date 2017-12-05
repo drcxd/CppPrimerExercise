@@ -1,0 +1,3 @@
+We usually will use the what member function when we deal with
+exception. If the what function is possible to throw exception, then
+the program will terminate which makes exception makes no sense.

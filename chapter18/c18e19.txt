@@ -1,0 +1,2 @@
+Since we have explicitly call std::swap, then no matter the argument
+type is string or int, the std::swap will be called.

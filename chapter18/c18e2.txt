@@ -1,0 +1,5 @@
+vector<int> v will be freed properly.
+
+The int array pointed by p will not be freed.
+
+ifstream in will be freed properly.

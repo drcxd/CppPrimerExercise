@@ -1,0 +1,2 @@
+When I have to use variables or functions only accessed in a
+particular file.
