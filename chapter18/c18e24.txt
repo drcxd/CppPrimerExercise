@@ -1,0 +1,1 @@
+Only print and destructor is visible.

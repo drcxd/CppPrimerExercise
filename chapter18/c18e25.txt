@@ -1,0 +1,12 @@
+(a) print in MI is called
+pb1->print();
+(b) print in MI is called
+pd1->print();
+(c) print in MI is called
+pd2->print();
+(d) destructors in MI, D2, Base2, D1, Base1 are called
+delete pb2;
+(e) destructors in MI, D2, Base2, D1, Base1 are called
+delete pd1;
+(f) destructors in MI, D2, Base2, D1, Base1 are called
+delete pd2;

@@ -1,0 +1,1 @@
+(b) is in error, it inhereits from a same class twice.

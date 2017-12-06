@@ -1,0 +1,3 @@
+bar, ival need no qualification, because it is inhereted from one single path.
+
+cval, foo need qualification, because there is same name member in Derived2 also.

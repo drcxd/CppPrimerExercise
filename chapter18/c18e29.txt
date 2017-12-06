@@ -1,0 +1,11 @@
+(a)
+
+Class() -> Base() -> D1() -> D2() -> MI() -> Class() -> Final()
+
+(b)
+
+one Base() part, two Class parts.
+
+(c)
+
+(a), (c), (b)
