@@ -1,0 +1,3 @@
+An member function pointer has to specify the class it points to. An
+member function will not be converted to its pointer type
+automatically.

@@ -1,0 +1,5 @@
+When declaring an ordinary data pointer, we just need to specify the
+data type.
+
+When delcaring an member data pointer, we have to specify the class
+name in addition to the data type.

@@ -1,0 +1,9 @@
+Legal.
+
+First the pmf has type
+
+char (Screen::*)()
+
+and is initialized to Screen::get_cursor. Then it is assigned to
+Screen::get. Since Screen has a member function get has the same
+prototype as get_cursor, the assignment is legal.

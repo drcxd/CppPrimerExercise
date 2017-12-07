@@ -1,0 +1,2 @@
+When we want to use a derived class operation through a base class
+pointer/reference but it is impossible to make that operation virtual.

@@ -1,0 +1,4 @@
+Illegal.
+
+The functions have the same name but C does not support function
+overload.

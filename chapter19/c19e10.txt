@@ -1,0 +1,12 @@
+(a)
+
+Print class C's type name. For Class C has a virtual destructor, and
+the arugment of typeid is a pointer.
+
+(b)
+
+Print class C's type name.
+
+(c)
+
+Print class B's type name.
